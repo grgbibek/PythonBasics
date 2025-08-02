@@ -58,3 +58,18 @@ print("Done")
 age = 12
 message = "Eligible" if age >= 18 else "Not eligible"
 print(message)  # Output: Not eligible
+
+# Operators
+high_income = True
+good_credit = True
+if high_income and good_credit:
+    print("Eligible for loan")  # Output: Eligible for loan
+else:
+    print("Not eligible for loan")
+
+# Loops
+for number in range(5):
+    print("Attempt", number + 1, (number + 1) * ".")  # Output: 0 1 2 3 4
+
+for number in range(1, 4):
+    print("Attempt", number, (number) * ".")  # Output: 0 1 2 3 4
